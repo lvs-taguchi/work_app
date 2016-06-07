@@ -126,27 +126,6 @@ describe "User pages" do
         click_button "Save changes"
       end
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
       it { should have_title(new_name) }
       it { should have_selector('div.alert.alert-success') }
       it { should have_link('Sign out', href: signout_path) }
@@ -155,4 +134,3 @@ describe "User pages" do
     end
   end
 end
->>>>>>> updating-users

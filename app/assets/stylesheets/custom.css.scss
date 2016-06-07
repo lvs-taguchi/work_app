@@ -107,7 +107,6 @@ footer {
   }
 }
 
-
 /* miscellaneous */
 
 .debug_dump {
@@ -117,7 +116,6 @@ footer {
   margin-top: 45px;
   @include box_sizing;
 }
-
 
 /* sidebar */
 
@@ -164,7 +162,6 @@ input {
   height: auto !important;
 }
 
-
 #error_explanation {
   color: #f00;
   ul {
@@ -178,9 +175,7 @@ input {
   @extend .error;
 }
 
-
 /* users index */
-<<<<<<< HEAD
 
 .users {
   list-style: none;
@@ -194,31 +189,3 @@ input {
     }
   }
 }
-
-=======
->>>>>>> updating-users
-
-.users {
-  list-style: none;
-  margin: 0;
-  li {
-    overflow: auto;
-    padding: 10px 0;
-    border-top: 1px solid $grayLighter;
-    &:last-child {
-      border-bottom: 1px solid $grayLighter;
-    }
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-

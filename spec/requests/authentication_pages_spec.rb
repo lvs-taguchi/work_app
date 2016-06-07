@@ -34,15 +34,10 @@ describe "AuthenticationPages" do
       end
 
       it { should have_title(user.name) }
-<<<<<<< HEAD
-      it { should have_link('Profile', href: user_path(user)) }
-      it { should have_link('Sign out', href: signout_path) }
-=======
       it { should have_link('Users',       href: users_path) }
       it { should have_link('Profile',     href: user_path(user)) }
       it { should have_link('Settings',    href: edit_user_path(user)) }
       it { should have_link('Sign out',    href: signout_path) }
->>>>>>> updating-users
       it { should_not have_link('Sign in', href: signin_path) }
 
       describe "followed by signout" do
@@ -51,8 +46,6 @@ describe "AuthenticationPages" do
       end
     end
   end
-<<<<<<< HEAD
-=======
 
   describe "authorization" do
     describe "for non-signed-in users" do
@@ -122,5 +115,4 @@ describe "AuthenticationPages" do
       end
     end
   end
->>>>>>> updating-users
 end
